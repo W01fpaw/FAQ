@@ -123,10 +123,8 @@ class ProfileController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Profile $profile)
+    public function destroy($id)
     {
-        $profile->delete();
-
-        return redirect()->route('home')->with('message', 'Deleted');
+        //
     }
 }
