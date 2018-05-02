@@ -90,7 +90,6 @@ return [
             'prefix' => '',
             'schema' => 'public',
         ],
-
     ],
 
     /*
